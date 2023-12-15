@@ -1,0 +1,42 @@
+
+k
+java:S1192z"NDefine a constant instead of duplicating this literal "LinkedHashSet" 6 times.(–Ù×í8™ãñÀÆ1
+k
+java:S1192†"HDefine a constant instead of duplicating this literal "HashMap" 6 times.(­—†²şÿÿÿÿ8™ãñÀÆ1
+h
+java:S11928"KDefine a constant instead of duplicating this literal "\u001B[32m" 3 times.(æÃ©‡8™ãñÀÆ1
+u
+java:S1192¡"RDefine a constant instead of duplicating this literal "class java.util." 15 times.(î³”¦ÿÿÿÿÿ8™ãñÀÆ1
+l
+java:S1192Œ"NDefine a constant instead of duplicating this literal "LinkedHashMap" 6 times.(–û‹¯8™ãñÀÆ1
+k
+java:S1192€"HDefine a constant instead of duplicating this literal "TreeSet" 6 times.(§ó Òúÿÿÿÿ8™ãñÀÆ1
+g
+java:S1192b"JDefine a constant instead of duplicating this literal "Arraylist" 6 times.(»ÃÃ8šãñÀÆ1
+e
+java:S1192t"HDefine a constant instead of duplicating this literal "HashSet" 6 times.(¡ù‹÷8šãñÀÆ1
+m
+java:S1192;"KDefine a constant instead of duplicating this literal "\u001B[33m" 3 times.(Æ‚Œ¥şÿÿÿÿ8™ãñÀÆ1
+m
+java:S1192>"KDefine a constant instead of duplicating this literal "\u001B[31m" 3 times.(¹³ö«ùÿÿÿÿ8™ãñÀÆ1
+e
+java:S1192’"HDefine a constant instead of duplicating this literal "TreeMap" 6 times.(Å‚Ös8™ãñÀÆ1
+m
+java:S1192n"KDefine a constant instead of duplicating this literal "ArrayDeque" 6 times.(˜Åæäüÿÿÿÿ8™ãñÀÆ1
+m
+java:S1192h"KDefine a constant instead of duplicating this literal "LinkedList" 6 times.(éİ§Œşÿÿÿÿ8™ãñÀÆ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ñ¤¡¦ÿÿÿÿÿ8 ãñÀÆ1
+W
+java:S1118":Add a private constructor to hide the implicit public one.(«Ûäà8×ãñÀÆ1
+@
+java:S2119P"Save and re-use this "Random".(í¹¶şÿÿÿÿ8ŞãñÀÆ1
+@
+java:S2119T"Save and re-use this "Random".(Î¸˜‹úÿÿÿÿ8ŞãñÀÆ1
+X
+java:S1854İ":Remove this useless assignment to local variable "stream".(‰©Êá8Òº¡ÁÆ1
+I
+java:S1481İ"+Remove this unused "stream" local variable.(‰©Êá8Òº¡ÁÆ1
+]
+java:S1854æ":Remove this useless assignment to local variable "stream".(©ŠŒııÿÿÿÿ8Òº¡ÁÆ1
+N
+java:S1481æ"+Remove this unused "stream" local variable.(©ŠŒııÿÿÿÿ8Óº¡ÁÆ1
