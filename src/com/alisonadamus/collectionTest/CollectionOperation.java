@@ -71,7 +71,7 @@ public class CollectionOperation {
             .map(entry -> entry.getValue() + "\t" + entry.getKey())
             .toList();
 
-        for (int i = 0; i < sortedResults.size(); i++) {
+        for (int i = 0; i < 9; i++) {
             System.out.println(colors.get(i) + sortedResults.get(i) + "\u001B[0m");
         }
     }
@@ -220,6 +220,7 @@ public class CollectionOperation {
 
     public static void sortingPrimitiveCollections(int initialCapacity) {
         createPrimitiveCollections(initialCapacity);
+        timeResults = new HashMap<>();
 
         startTime = System.currentTimeMillis();
         integerArrayList = integerArrayList.parallelStream().sorted()
@@ -291,6 +292,7 @@ public class CollectionOperation {
 
     public static void sortObjectCollections(int initialCapacity) {
         createObjectCollections(initialCapacity);
+        timeResults = new HashMap<>();
 
         startTime = System.currentTimeMillis();
         objectArrayList = objectArrayList.parallelStream()
@@ -368,6 +370,7 @@ public class CollectionOperation {
 
     public static void filteringPrimitiveCollections(int initialCapacity) {
         createPrimitiveCollections(initialCapacity);
+        timeResults = new HashMap<>();
 
         startTime = System.currentTimeMillis();
         integerArrayList = integerArrayList.parallelStream().filter(x -> x < 50000)
@@ -439,6 +442,7 @@ public class CollectionOperation {
 
     public static void filteringObjectCollections(int initialCapacity) {
         createObjectCollections(initialCapacity);
+        timeResults = new HashMap<>();
 
         startTime = System.currentTimeMillis();
         objectArrayList = objectArrayList.parallelStream().filter(x -> x.getId() < 50000)
@@ -511,6 +515,7 @@ public class CollectionOperation {
 
     public static void countingPrimitiveCollections(int initialCapacity) {
         createPrimitiveCollections(initialCapacity);
+        timeResults = new HashMap<>();
 
         countigCollection(integerArrayList);
         countigCollection(integerLinkedList);
@@ -525,6 +530,7 @@ public class CollectionOperation {
 
     public static void countingObjectCollections(int initialCapacity) {
         createObjectCollections(initialCapacity);
+        timeResults = new HashMap<>();
 
         countigCollection(objectArrayList);
         countigCollection(objectLinkedList);
@@ -555,6 +561,7 @@ public class CollectionOperation {
 
     public static void summingPrimitiveCollections(int initialCapacity) {
         createPrimitiveCollections(initialCapacity);
+        timeResults = new HashMap<>();
 
         sumPrimitiveCollection(integerArrayList);
         sumPrimitiveCollection(integerLinkedList);
@@ -569,6 +576,7 @@ public class CollectionOperation {
 
     public static void summingObjectCollections(int initialCapacity) {
         createObjectCollections(initialCapacity);
+        timeResults = new HashMap<>();
 
         sumObjectCollection(objectArrayList);
         sumObjectCollection(objectLinkedList);
@@ -615,6 +623,7 @@ public class CollectionOperation {
 
     public static void averagingPrimitiveCollections(int initialCapacity) {
         createPrimitiveCollections(initialCapacity);
+        timeResults = new HashMap<>();
 
         averagePrimitiveCollection(integerArrayList);
         averagePrimitiveCollection(integerLinkedList);
@@ -629,6 +638,7 @@ public class CollectionOperation {
 
     public static void averagingObjectCollections(int initialCapacity) {
         createObjectCollections(initialCapacity);
+        timeResults = new HashMap<>();
 
         averageObjectCollection(objectArrayList);
         averageObjectCollection(objectLinkedList);
@@ -675,6 +685,7 @@ public class CollectionOperation {
 
     public static void concatingPrimitiveCollections(int initialCapacity) {
         createPrimitiveCollections(initialCapacity);
+        timeResults = new HashMap<>();
 
         ArrayList<Integer> secondIntegerArrayList = new ArrayList<>(randomIntegers);
         LinkedList<Integer> secondIntegerLinkedList = new LinkedList<>(randomIntegers);
@@ -701,6 +712,7 @@ public class CollectionOperation {
 
     public static void concatingObjectCollections(int initialCapacity) {
         createObjectCollections(initialCapacity);
+        timeResults = new HashMap<>();
 
         ArrayList<TestObject> secondObjectArrayList = new ArrayList<>(randomObjects);
         LinkedList<TestObject> secondObjectLinkedList = new LinkedList<>(randomObjects);
@@ -747,6 +759,7 @@ public class CollectionOperation {
 
     public static void matchPrimitiveCollections(int initialCapacity) {
         createPrimitiveCollections(initialCapacity);
+        timeResults = new HashMap<>();
 
         allMatchPrimitiveCollection(integerArrayList);
         allMatchPrimitiveCollection(integerLinkedList);
@@ -761,6 +774,7 @@ public class CollectionOperation {
 
     public static void matchObjectCollections(int initialCapacity) {
         createObjectCollections(initialCapacity);
+        timeResults = new HashMap<>();
 
         allMatchObjectCollection(objectArrayList);
         allMatchObjectCollection(objectLinkedList);
